@@ -1,0 +1,15 @@
+{
+    "name": "alfacode-team/hkm-plugin-logger",
+    "description": "HKM Kernel plugin providing 'logging.application'.",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["hkm-kernel", "plugin", "php", "logging.application"],
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plugins\\Logger\\": ""
+        }
+    }
+}
